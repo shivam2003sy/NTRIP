@@ -1,0 +1,194 @@
+.login-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    margin: 0 35%;
+}
+
+.registration-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    margin: 0 35%;
+  }
+.card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: auto;
+    /* max-width: 400px; Optional: Set a maximum width for the card */
+}
+
+.card >h2 {
+    text-align: center;
+   
+}
+.card >h3 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+/* .card > label{
+    margin-top: 20px;
+    margin-left: 5px;
+} */
+
+.card > label {
+    margin-top: 30px;
+    margin-left: 5px;
+    text-align: left; /* Align text to the left */
+    display: block; /* Ensure labels are displayed as block elements */
+  }
+.card >input{
+    border-radius: 9px;
+    padding: 4px 10px;
+    color: rgb(108, 99, 99);
+    margin: 8px 25px;
+    font-size: 12px;
+}
+
+.forgetPassword{
+    color: rgb(87, 79, 79);
+    text-decoration: none;
+    text-align: end;
+    margin-right: 20px;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+.forgetPassword:hover{
+    cursor: pointer;
+}
+
+.card-content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.login-button {
+    width: auto;
+    border-radius: 10px;
+    padding: 2px 9px;
+    margin-top: 15px;
+   margin-bottom: 20px;
+   background-color: #ffffff;
+}
+
+.login-button:hover {
+   color: #f5f5f5;
+   background-color: black;
+}
+
+.footer-text{
+    text-align: center;
+    margin-top: 5px;
+}
+.signup{
+    text-decoration: none;
+    color: black;
+}
+
+.image{
+    margin-top: 10px;
+}
+
+.image >img{
+    width: 3vmax;
+    border-radius: 50%;
+}
+
+.image>input{
+    margin: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 78%;
+}
+
+.image>input::file-selector-button{
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+    transition: all 0.5s;
+    padding:  0 1vmax;
+    background-color: #f5f5f5;
+}
+
+.image>input::file-selector-button:hover{
+    background-color: #e7e7e7;
+
+}
+
+@media screen and (max-width: 350px) {
+    .login-form {
+      margin: 20px ;
+      }
+
+      .card {
+        width: auto;
+        height: auto;
+    }
+      
+    .image >img{
+        width: 8vmax;
+        border-radius: 50%;
+    }
+    .image>input{
+        margin: 5px 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 70%;
+    }
+   
+    .registration-form{
+        margin: 20px;
+      }
+}
+
+@media screen and (min-width: 350px) and (max-width: 768px) {
+    .login-form {
+        margin: 8% 0;
+        }
+  
+        .card {
+          width: auto;
+          height: auto;
+      }
+      .registration-form{
+        margin: 8% 20px;
+      }
+    }    
+
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .login-form {
+            margin: 30% 20%;
+            }
+      
+            .card {
+              width: auto;
+              height: auto;
+          }
+            
+          .image >img{
+              width: 7.5vmax;
+              border-radius: 50%;
+          }
+          .image>input{
+              
+              width: 70%;
+          }
+          .registration-form{
+            margin: 27% 20%;
+          }
+        }  
