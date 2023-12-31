@@ -1,0 +1,12 @@
+caster/templates/caster/index.html
+{% extends 'base.html' %}
+
+{% block title %}Caster Index{% endblock %}
+
+{% block content %}
+    <h2>Welcome to the Caster UI!</h2>
+    <p>
+        This is the Caster UI.
+        <a href="{% url 'login' %}">Login</a> to get started.
+    </p>
+{% endblock %}

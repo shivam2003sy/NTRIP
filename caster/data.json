@@ -1,0 +1,11 @@
+{
+  "packet" : "This will be encoded in a Binary Packet",
+  "longitude" : 12.344,
+  "latitude" : 15.454,
+  "altitude ": 22,
+  "elevation" : 89.242,
+  "mountPoint" : "BHKK"
+}
+{
+  "basestation" : 37 
+}

@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Database
+*.sqlite3
+*.db
+
+# Static files
+staticfiles/
+static/
+
+# Media files
+media/
+
+# Secret key
+*.secret_key
+
+# Virtual environment
+venv/
+env/
+
+# Log files
+*.log
+
+# Ignore Django generated files
+*.DS_Store
+Thumbs.db
+
+# Ignore development and local settings
+*.local
+*.db.sqlite3
+*.settings
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+Pipfile
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore system files
+*.swp
+.DS_Store
